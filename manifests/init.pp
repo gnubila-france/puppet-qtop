@@ -28,7 +28,7 @@
 #
 class qtop (
   $manage_repo = true,
-  package_ensure = 'installed',
+  $package_ensure = 'installed',
 ) {
   validate_bool($manage_repo)
   validate_string($package_ensure)
