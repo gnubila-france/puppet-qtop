@@ -1,6 +1,6 @@
 {
   "name": "gnubilafrance-qtop",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Baptiste Grenier <bgrenier@gnubila.fr>",
   "license": "Apache-2.0",
   "summary": "Simple qtop configuration",
