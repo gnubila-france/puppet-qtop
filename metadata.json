@@ -1,0 +1,35 @@
+{
+  "name": "gnubilafrance-qtop",
+  "version": "0.0.1",
+  "author": "Baptiste Grenier <bgrenier@gnubila.fr>",
+  "license": "Apache-2.0",
+  "summary": "Simple qtop configuration",
+
+  "source": "https://github.com/gnubila-france/puppet-qtop",
+  "project_page": "https://github.com/gnubila-france/puppet-qtop",
+  "issues_url": "https://github.com/gnubila-france/puppet-qtop/issues",
+
+  "tags": [ "qtop", "grid", "monitoring", "queue" ],
+
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "5",
+        "6"
+      ]
+    },
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "5",
+        "6"
+      ]
+    },
+  ],
+
+  "dependencies": [
+    { "name": "puppetlabs/stdlib", "version_requirement": ">= 2.3.0" },
+    { "name": "example42/yum", "version_requirement": ">= 2.0.0" }
+  ]
+}
